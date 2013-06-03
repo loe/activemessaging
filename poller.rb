@@ -5,6 +5,5 @@ STDERR.sync = true; STDERR.flush
 
 load File.join(Rails.root, 'config', 'environment.rb')
 
-
 # Start it up!
 ActiveMessaging::start
